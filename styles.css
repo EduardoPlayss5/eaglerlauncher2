@@ -1,0 +1,51 @@
+* {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+
+    /* CHATGPT */
+    background-color: #f8f8f8;
+}
+
+/* CHATGPT */
+.home {
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+h1 {
+    color: #333;
+}
+
+select, button {
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+select {
+    width: 100%;
+}
+
+button {
+    background-color: #007bff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
