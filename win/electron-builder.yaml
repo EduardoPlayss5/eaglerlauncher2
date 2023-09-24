@@ -1,0 +1,8 @@
+appId: com.eduardoplayss5.eaglerlauncher2
+productName: Eaglerlauncher 2 Preview
+directories:
+  output: build
+win:
+  target:
+    - nsis
+  icon: datasr/icon2.ico
